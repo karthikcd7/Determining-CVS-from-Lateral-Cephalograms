@@ -16,3 +16,5 @@ for filename in os.listdir(path):
     cropped = resized[1200:2100, 0:650]
     cv2.imwrite(save_path + 'croppedimg/' + filename, cropped)
 
+
+    
